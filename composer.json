@@ -1,0 +1,32 @@
+{
+    "name": "loongws/laravel-admin-sku",
+    "description": "",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension"],
+    "homepage": "https://github.com/loongws/laravel-admin-sku",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "loongws",
+            "email": "1239305697@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "encore/laravel-admin": "~1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Encore\\LaravelAdminSku\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Encore\\LaravelAdminSku\\SkuServiceProvider"
+            ]
+        }
+    }
+}

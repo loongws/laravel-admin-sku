@@ -1,0 +1,31 @@
+.sku-box{
+    padding: 10px 10px;
+    border: 1px solid #d2d6de;
+}
+.sku-box .sku-specification-box{
+    margin-top: 10px;
+}
+.sku-box .sku-specification-val-box{
+    clear: both;
+}
+.sku-box .sku-specification-val-box:after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+.sku-box .sku-specification-val-item{
+    display: inline-block;
+    float: left;
+}
+
+.sku-box .sku-specification-val-item .sku-specification-val-input{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    width: 100px;
+    float: left;
+}
+
+.sku-box .sku-specification-val-item .btn{
+    float: left;
+    border-radius: 0 !important;
+}
